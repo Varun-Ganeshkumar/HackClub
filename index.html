@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Username Taken </title>
+      <link rel="icon" type="image/x-icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuUyMV_BKZ_9cj9K0juk8YE9My-VVDQrVz0Q&s">
+    <link rel="stylesheet" href="./style.css">>
+  </head>
+  <body>
+    <main>
+      <div class = "center">
+        <p class = "hidden" id="countdown"></p>
+        <h1>Welcome to Username Taken!</h1>  
+        <textarea class = "Username" placeholder="Enter Your Username!" id = "userInput"></textarea> <br/>
+        <button class="submit" id="submitButton">Submit!</button><br/>
+        <!--start of rule1-->
+        <p id = "rule1" class = "nHidden">  <img id = "r1Left"class = "redX" 
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuUyMV_BKZ_9cj9K0juk8YE9My-VVDQrVz0Q&s" alt="">
+           Rule 1. Username can not be 0 characters or over 25 characters   
+          <img id = "r1Right"class = "redX" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuUyMV_BKZ_9cj9K0juk8YE9My-VVDQrVz0Q&s" alt=""> </p> <br/> 
+          <!--end of rule1-->
+          <!--start of rule 2-->
+        <p id = "rule2" class = "hidden"> <img id = "r2Left"class = "redX" 
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuUyMV_BKZ_9cj9K0juk8YE9My-VVDQrVz0Q&s" alt="">
+          Rule 2. Username requires exactly 2 numbers
+          <img id = "r2Right"class = "redX" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuUyMV_BKZ_9cj9K0juk8YE9My-VVDQrVz0Q&s" alt=""></p> <br/>
+        <!--end of rule 2-->
+        <!--start of rule 3-->
+        <p id = "rule3" class = "hidden"> <img id = "r3Left"class = "redX" 
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuUyMV_BKZ_9cj9K0juk8YE9My-VVDQrVz0Q&s" alt="">
+          Rule 3. Username needs the letters {} and [] inside it 
+          <img id = "r3Right"class = "redX" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuUyMV_BKZ_9cj9K0juk8YE9My-VVDQrVz0Q&s" alt=""></p> <br/>
+        <!--end of rule 3-->
+         <!--start of rule 4-->
+        <p id = "rule4" class = "hidden"> <img id = "r4Left"class = "redX" 
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuUyMV_BKZ_9cj9K0juk8YE9My-VVDQrVz0Q&s" alt="">
+          Rule 4. Press this button to increase the bar at the top or lose your username
+          <img id = "r4Right"class = "redX" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuUyMV_BKZ_9cj9K0juk8YE9My-VVDQrVz0Q&s" alt=""><br/> 
+        <button class = "ruleButton" id="evilButton">Press This Button!</button> </p> <br/>
+        <!--end of rule 4-->
+        <!--start of rule 5-->
+        <p id = "rule5" class = "hidden"> <img id = "r5Left"class = "redX" 
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuUyMV_BKZ_9cj9K0juk8YE9My-VVDQrVz0Q&s" alt="">
+          Rule 5. A username requires a color 
+          <img id = "r5Right"class = "redX" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuUyMV_BKZ_9cj9K0juk8YE9My-VVDQrVz0Q&s" alt=""></p> <br/>
+        <!--end of rule 5-->
+        <!--start of rule 6-->
+        <p id = "rule6" class = "hidden"> <img id = "r6Left"class = "redX" 
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuUyMV_BKZ_9cj9K0juk8YE9My-VVDQrVz0Q&s" alt="">
+          Rule 6. Start with a capital letter and end with punctuation
+          <img id = "r6Right"class = "redX" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuUyMV_BKZ_9cj9K0juk8YE9My-VVDQrVz0Q&s" alt=""></p> <br/>
+        <!--end of rule 6-->
+         <!--start of rule 7-->
+        <p id = "rule7" class = "hidden"> <img id = "r7Left"class = "redX" 
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuUyMV_BKZ_9cj9K0juk8YE9My-VVDQrVz0Q&s" alt="">
+          Rule 7. Tell me something about yourself! 
+          <img id = "r7Right" class = "redX" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuUyMV_BKZ_9cj9K0juk8YE9My-VVDQrVz0Q&s" alt=""> <br/>
+        <input class = "visible" id = "addToUser"> <button class = "visible" id = "simpleButton">Enter</button></p> <br/>
+        <!--end of rule 7-->
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
